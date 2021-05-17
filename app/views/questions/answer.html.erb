@@ -1,0 +1,12 @@
+<div class = container>
+  <div class="question border-left">
+    <h1><%= params[:question] %></h1>
+    <p>-You</p>
+  </div>
+  <div class="answer border-left">
+    <h1><%= @answers %></h1>
+    <p>-Your Coach</p>
+  </div>
+
+  <p><%= link_to "ask another question", ask_path %></p>
+</div>
